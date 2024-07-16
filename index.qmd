@@ -1,0 +1,28 @@
+---
+title: "Belle Schmidt"
+about: 
+  template: jolla
+  image: assets/Belle_Schmidt.jpg
+  image-shape: rounded
+  links: 
+    - icon: envelope
+      text: Email
+      href: mailto:schmid46@stolaf.edu
+      target: _blank
+    - icon: github
+      text: GitHub
+      href: https://github.com/belle-schmidt
+      target: _blank
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/isabelle-schmidt-8b13912aa/
+      target: _blank
+---
+
+Welcome to my website! I am currently an undergrad at St Olaf College. On campus I play varsity softball, am a co-president of Sports Analytics Club, and work as an admissions tour guide, game day operator, and a Calculus grader. After college I hope to work as a sports analyst for a professional sports team, preferably baseball.
+
+### Education
+
+BA in Math with Statistics/Data Science and Management concentrations <br> 2026 \| St. Olaf College
+
+High School Diploma <br> 2022 \| Eastlake High School

@@ -1,0 +1,37 @@
+project:
+  type: website
+  resources: assets
+  output-dir: docs
+
+website:
+  title: "Belle Schmidt"
+  navbar:
+    background: "#f6c167"
+    foreground: "#FFFFFF"
+    left:
+      - href: index.qmd
+        text: Home
+      - projects.qmd
+    right: 
+      - icon: linkedin
+        href: https://www.linkedin.com/in/isabelle-schmidt-8b13912aa/
+        target: _blank
+      - icon: github
+        href: https://github.com/belle-schmidt
+        target: _blank
+      - icon: file-person
+        href: assets/Isabelle_Schmidt_Resume.pdf
+        target: _blank
+        
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+       # - custom.scss
+    css: styles.css
+    toc: true
+
+editor: visual
+

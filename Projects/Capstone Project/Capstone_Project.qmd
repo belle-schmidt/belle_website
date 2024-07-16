@@ -1,0 +1,21 @@
+---
+title: "Capstone"
+description: "Capstone Project on evaluting the effectiveness of FanGraph's Stuff+ Model for SURE 2024 at CMU"
+date: July 2024
+about: 
+  template: solana
+  links: 
+    - icon: github
+      text: "GitHub"
+      href: https://github.com/belle-schmidt/Pittsburgh-Pirates
+      target: _blank
+    - icon: file-slides
+      text: Slides
+      target: _blank
+    - icon: file-easel
+      text: Poster
+      target: _blank
+    - icon: file-text
+      text: Report
+      target: _blank
+---
