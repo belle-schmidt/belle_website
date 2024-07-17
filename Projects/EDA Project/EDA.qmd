@@ -13,6 +13,7 @@ about:
       target: _blank
     - icon: file-slides
       text: Slides
+      href: https://docs.google.com/presentation/d/1_1x_YtSZJGayjbqQrRSovPsJ_z3kGCAPemvePHi2UAQ/edit#slide=id.g2e5d72eebd7_0_930
       target: _blank
     - icon: window
       text: Shiny
