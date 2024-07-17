@@ -3,7 +3,8 @@
     "listing": "/projects.html",
     "items": [
       "/Projects/Capstone Project/Capstone_Project.html",
-      "/Projects/EDA Project/EDA.html"
+      "/Projects/EDA Project/EDA.html",
+      "/Projects/Spotify EDA Project/Spotify.html"
     ]
   }
 ]

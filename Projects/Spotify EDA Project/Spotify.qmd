@@ -1,20 +1,18 @@
 ---
-title: "EDA Project"
+title: "Spotify"
 description: "EDA Project on WNBA Team and Player Success for SURE 2024 at CMU"
-date: June 14 2024
+date: May 22 2024
 about: 
   template: solana
-  image: cover.jpg
+  image: cover.webp
   image-shape: rounded
   links: 
     - icon: github
       text: "GitHub"
-      href: https://github.com/colesheegs/WNBA-EDA-Project
-      target: _blank
-    - icon: file-slides
-      text: Slides
+      href: https://github.com/abbyhahs/merge_test
       target: _blank
     - icon: window
-      text: Shiny
+      text: "Shiny App"
+      href: https://abbyhahs.shinyapps.io/Spotify_Audio_Analysis/
       target: _blank
 ---

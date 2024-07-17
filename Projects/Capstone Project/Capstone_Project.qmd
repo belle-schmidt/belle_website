@@ -1,9 +1,10 @@
 ---
 title: "Capstone"
 description: "Capstone Project on evaluting the effectiveness of FanGraph's Stuff+ Model for SURE 2024 at CMU"
-date: July 2024
+date: July 26 2024
 about: 
   template: solana
+  image: cover.jpg
   links: 
     - icon: github
       text: "GitHub"
