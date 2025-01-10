@@ -1,6 +1,6 @@
 ---
 title: "Spotify"
-description: "EDA Project on WNBA Team and Player Success for SURE 2024 at CMU"
+description: "Final project for my Data Science 2 course showcasing my work in Shiny"
 date: May 22 2024
 about: 
   template: solana

@@ -11,12 +11,15 @@ about:
       href: https://github.com/belle-schmidt/Pittsburgh-Pirates
       target: _blank
     - icon: file-slides
-      text: Slides
+      text: "Slides"
+      href: https://docs.google.com/presentation/d/1gDp_AAj02P-_tELlcciAEF6Plji-aMmRPPjkIrz-4_I/edit?usp=sharing
       target: _blank
     - icon: file-easel
       text: Poster
+      href: https://www.stat.cmu.edu/cmsac/sure/2024/showcase/baseball_pirates/poster.pdf
       target: _blank
     - icon: file-text
       text: Report
+      href: https://www.stat.cmu.edu/cmsac/sure/2024/showcase/baseball_pirates/report.html
       target: _blank
 ---

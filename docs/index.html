@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/isabelle-schmidt-8b13912aa/" target="_blank"> <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/isabelle-belle-schmidt-8b13912aa" target="_blank"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -116,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-jolla content">
+<div class="quarto-about-jolla">
   <img src="assets/Belle_Schmidt.jpg" class="about-image
   rounded " style="width: 15em;">
  <header id="title-block-header" class="quarto-title-block default">
@@ -146,10 +146,10 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </header><main class="content" id="quarto-document-content">
 
-<p>Welcome to my website! I am currently an undergrad at St Olaf College. On campus I play varsity softball, am a co-president of Sports Analytics Club, and work as an admissions tour guide, game day operator, and a Calculus grader. After college I hope to work as a sports analyst for a professional sports team, preferably baseball.</p>
+<p>Welcome to my website! My name is Isabelle (or Belle) Schmidt and I am currently an undergrad at St Olaf College. On campus I am heavily involved in the athletic community. I am a member of the Varsity softball team, do data analytics for the football team, and am the president of the Sports Analytics Club. I also participate in intramural sports like broomball, volleyball, and basketball. In addition, in the 2023-24 academic year, I won the Ole Pride Award which recognizes the student who attended the most St Olaf sporting events that year. Outside of academics and athletics, I enjoy listening to music, trying new restaurants, and traveling. This past Summer, I was a Fellow at the Carnegie Mellon Sports Analytics Camp where I was mentored by sports analytics industry experts Doctor Ron Yurko, Quang Nguyen, and Sean Ahmed as I collaborated on a project evaluating the baseball Stuff+ metric. After graduation I hope to work as a data analyst in the sports industry.</p>
 <section id="education" class="level3">
 <h3 data-anchor-id="education">Education</h3>
-<p>BA in Math with Statistics/Data Science and Management concentrations <br> 2026 | St.&nbsp;Olaf College</p>
+<p>BA in Math with Statistics &amp; Data Science and Management concentrations <br> 2026 | St.&nbsp;Olaf College</p>
 <p>High School Diploma <br> 2022 | Eastlake High School</p>
 
 
@@ -165,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
     <i class="bi bi-github"></i>
      <span class="about-link-text">GitHub</span>
   </a>
-  <a href="https://www.linkedin.com/in/isabelle-schmidt-8b13912aa/" class="about-link" rel="" target="_blank">
+  <a href="https://www.linkedin.com/in/isabelle-belle-schmidt-8b13912aa" class="about-link" rel="" target="">
     <i class="bi bi-linkedin"></i>
      <span class="about-link-text">LinkedIn</span>
   </a>
@@ -344,18 +344,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -387,7 +376,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -395,7 +406,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
