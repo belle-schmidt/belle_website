@@ -13,6 +13,6 @@ about:
       target: _blank
     - icon: window
       text: "Shiny App"
-      href: https://abbyhahs.shinyapps.io/Spotify_Audio_Analysis/
+      href: https://belle-schmidt.shinyapps.io/final_project/#section-tonality-for-top-artists
       target: _blank
 ---
