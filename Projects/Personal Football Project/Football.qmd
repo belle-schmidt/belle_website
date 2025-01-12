@@ -1,15 +1,18 @@
 ---
-title: "Football"
-description: "Currently in progress but showcases my creativity in the data cleaning proccess."
-date: May 22 2024
+title: "Personal Football Project"
+description: "Currently in progress but showcases my creativity in the data cleaning proccess"
+date: January 12 2025
 about: 
   template: solana
-  image: cover.webp
+  image: cover.png
   image-shape: rounded
   links: 
     - icon: github
       text: "GitHub"
       href: https://github.com/nehakotha7/BDB-Project/tree/main/Schmidt
       target: _blank
+    - icon: file-slides
+      text: Slides
+      href: https://docs.google.com/presentation/d/1_1x_YtSZJGayjbqQrRSovPsJ_z3kGCAPemvePHi2UAQ/edit?usp=sharing
+      target: _blank
 ---
-

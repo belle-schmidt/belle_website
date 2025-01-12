@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Belle Schmidt",
     "section": "",
-    "text": "Welcome to my website! I am currently an undergrad at St Olaf College. On campus I play varsity softball, am a co-president of Sports Analytics Club, and work as an admissions tour guide, game day operator, and a Calculus grader. After college I hope to work as a sports analyst for a professional sports team, preferably baseball.\n\nEducation\nBA in Math with Statistics/Data Science and Management concentrations  2026 | St. Olaf College\nHigh School Diploma  2022 | Eastlake High School"
+    "text": "Welcome to my website! My name is Isabelle (or Belle) Schmidt and I am currently an undergrad at St Olaf College.\n{fig-alt= “Belle Schmidt on the St Olaf College Campus” fig-height = 30% fig-width = 30%}"
   },
   {
     "objectID": "about.html",
@@ -18,6 +18,20 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Below, you can find my projects!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCapstone\n\n\n\n\n\nCapstone Project on evaluting the effectiveness of FanGraph’s Stuff+ Model for SURE 2024 at CMU\n\n\n\n\n\nJul 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nEDA Project\n\n\n\n\n\nEDA Project on WNBA Team and Player Success for SURE 2024 at CMU\n\n\n\n\n\nJun 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSpotify\n\n\n\n\n\nEDA Project on WNBA Team and Player Success for SURE 2024 at CMU\n\n\n\n\n\nMay 22, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Below, you can find my projects!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCapstone\n\n\n\n\n\nCapstone Project on evaluting the effectiveness of FanGraph’s Stuff+ Model for SURE 2024 at CMU\n\n\n\n\n\nJul 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nEDA Project\n\n\n\n\n\nEDA Project on WNBA Team and Player Success for SURE 2024 at CMU\n\n\n\n\n\nJun 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPersonal Football Project\n\n\n\n\n\nCurrently in progress but showcases my creativity in the data cleaning proccess\n\n\n\n\n\nJan 12, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSpotify\n\n\n\n\n\nFinal project for my Data Science 2 course showcasing my work in Shiny\n\n\n\n\n\nMay 22, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Belle Schmidt",
+    "section": "",
+    "text": "Welcome to my website! My name is Isabelle (or Belle) Schmidt and I am currently an undergrad at St Olaf College.\n{fig-alt= “Belle Schmidt on the St Olaf College Campus” fig-height = 30% fig-width = 30%}"
+  },
+  {
+    "objectID": "index.html#campus-involvement",
+    "href": "index.html#campus-involvement",
+    "title": "Belle Schmidt",
+    "section": "Campus Involvement",
+    "text": "Campus Involvement\nOn campus I am heavily involved in the athletic community. I am a member of the Varsity softball team, do data analytics for the football team, and am the president of the Sports Analytics Club. I also participate in intramural sports like broomball, volleyball, and basketball. In addition, in the 2023-24 academic year, I won the Ole Pride Award which recognizes the student who attended the most St Olaf sporting events that year. Outside of academics and athletics, I enjoy listening to music, trying new restaurants, and traveling. This past Summer, I was a Fellow at the Carnegie Mellon Sports Analytics Camp where I was mentored by sports analytics industry experts Doctor Ron Yurko, Quang Nguyen, and Sean Ahmed as I collaborated on a project evaluating the baseball Stuff+ metric. After graduation I hope to work as a data analyst in the sports industry.\n\nEducation\nBA in Math with Statistics & Data Science and Management concentrations  2026 | St. Olaf College\nHigh School Diploma  2022 | Eastlake High School"
   }
 ]

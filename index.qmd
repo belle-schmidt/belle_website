@@ -18,6 +18,8 @@ about:
       href: https://www.linkedin.com/in/isabelle-belle-schmidt-8b13912aa
 ---
 
+## Welcome
+
 Welcome to my website! My name is Isabelle (or Belle) Schmidt and I am currently an undergrad at St Olaf College. On campus I am heavily involved in the athletic community. I am a member of the Varsity softball team, do data analytics for the football team, and am the president of the Sports Analytics Club. I also participate in intramural sports like broomball, volleyball, and basketball. In addition, in the 2023-24 academic year, I won the Ole Pride Award which recognizes the student who attended the most St Olaf sporting events that year. Outside of academics and athletics, I enjoy listening to music, trying new restaurants, and traveling. This past Summer, I was a Fellow at the Carnegie Mellon Sports Analytics Camp where I was mentored by sports analytics industry experts Doctor Ron Yurko, Quang Nguyen, and Sean Ahmed as I collaborated on a project evaluating the baseball Stuff+ metric. After graduation I hope to work as a data analyst in the sports industry.
 
 ### Education
