@@ -1,0 +1,15 @@
+---
+title: "Football"
+description: "Currently in progress but showcases my creativity in the data cleaning proccess."
+date: May 22 2024
+about: 
+  template: solana
+  image: cover.webp
+  image-shape: rounded
+  links: 
+    - icon: github
+      text: "GitHub"
+      href: https://github.com/nehakotha7/BDB-Project/tree/main/Schmidt
+      target: _blank
+---
+
