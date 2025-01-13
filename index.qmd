@@ -15,7 +15,7 @@ about:
       target: _blank
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/isabelle-belle-schmidt-8b13912aa/
+      href: www.linkedin.com/in/isabelle-belle-schmidt
 ---
 
 ## Welcome
