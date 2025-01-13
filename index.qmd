@@ -2,7 +2,7 @@
 title: "Belle Schmidt"
 about: 
   template: jolla
-  image: assets/Belle_Schmidt.jpg
+  image: assets/profile.jpg
   image-shape: rounded
   links: 
     - icon: envelope
